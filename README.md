@@ -4,7 +4,7 @@ This repository documents my journey in learning and building AI Agents from scr
 
 ---
 
-## 🧠 What is an AI Agent?
+## What is an AI Agent?
 An AI Agent is a system that:
 - **Perceives** its environment via sensors (e.g., an image classifier for fundus scans)
 - **Decides** what action to take (e.g., refer the patient, monitor, or do nothing)
@@ -15,7 +15,7 @@ This repo takes the idea beyond just CNNs — into actual systems thinking: buil
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 To build a decision-making AI agent that:
 - Wraps a trained CNN model (for glaucoma or fundus disease detection)
 - Implements a `perceive-decide-act` loop
@@ -24,7 +24,7 @@ To build a decision-making AI agent that:
 
 ---
 
-## 🧩 Learning Milestones
+## Learning Milestones
 | Phase | Topic | Status |
 |-------|-------|--------|
 | 1 | Understand AI agents from AIMA Ch. 2, 3, 4, 18 | ✅ In Progress |
@@ -35,7 +35,7 @@ To build a decision-making AI agent that:
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 ```
 learning-ai-agents/
 │
@@ -59,9 +59,10 @@ learning-ai-agents/
 
 ---
 
-## 🛠 Dependencies
+## Dependencies
 - Python ≥ 3.8
-- PyTorch
+- tensorflow
+- keras
 - NumPy, OpenCV, Matplotlib
 - tqdm, pandas (for logs and analysis)
 
@@ -72,7 +73,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔭 Future Work
+## Future Work
 - [ ] Add reward feedback from environment
 - [ ] Use confidence calibration for utility-based decisions
 - [ ] Explore learning-based policies (Q-learning, planning)
@@ -80,17 +81,15 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 References
+## References
 - Russell & Norvig, "Artificial Intelligence: A Modern Approach"
 - AIMA Python Code: [https://github.com/aimacode/aima-python](https://github.com/aimacode/aima-python)
 - Retinal Fundus Data: Kaggle datasets
 
 ---
 
-## ✍️ Author
+## Author
 This is a solo learning + building project by an MCA final semester student interested in applied vision AI and autonomous intelligent systems for healthcare.
 
 ---
 
-## 🤝 Contributions
-Right now, this is a personal learning journey. If you’re working on similar agent-based, feel free to connect!
