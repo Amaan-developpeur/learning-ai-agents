@@ -39,23 +39,25 @@ To build a decision-making AI agent that:
 ```
 learning-ai-agents/
 │
-├── README.md              # This document
-├── requirements.txt       # Python dependencies
-│__ notes.docx
-|__notes.pdf
-├── models/
-│   └── glaucoma_cnn.pt    # Pretrained or custom model
+├── README.md                 # Project overview
+├── requirements.txt          # Dependencies
+├── notes.docx                # AI Agent theory notes (editable)
+├── notes.pdf                 # PDF version of the notes
 │
-├── agent/
-│   ├── agent_loop.py      # Agent's main control logic
-│   ├── environment.py     # Simulated feedback or rule-based reward system
-│   └── utils.py           # Helper functions for thresholds, logging
+├── models/                   # Trained models
+│   └── glaucoma_cnn.pt
 │
-├── notebooks/
-│   └── agent_demo.ipynb   # Notebook demo of agent on fundus images
+├── agent/                    # Agent logic and environment
+│   ├── agent_loop.py         # Main agent loop
+│   ├── environment.py        # Simulated environment logic
+│   └── utils.py              # Helper functions
 │
-└── data/
-    └── demo_images/       # Sample images for agent testing
+├── notebooks/                # Jupyter notebooks for testing
+│   └── agent_demo.ipynb
+│
+└── data/                     # Sample images for agent testing
+    └── demo_images/
+
 ```
 
 ---
