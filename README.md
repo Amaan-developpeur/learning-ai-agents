@@ -41,7 +41,8 @@ learning-ai-agents/
 │
 ├── README.md              # This document
 ├── requirements.txt       # Python dependencies
-│__ notes.pdf
+│__ notes.docx
+|__notes.pdf
 ├── models/
 │   └── glaucoma_cnn.pt    # Pretrained or custom model
 │
