@@ -88,8 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## Author
-This is a solo learning + building project by an MCA final semester student interested in applied vision AI and autonomous intelligent systems for healthcare.
+
 
 ---
 
