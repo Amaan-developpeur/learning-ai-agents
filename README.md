@@ -45,7 +45,7 @@ learning-ai-agents/
 ├── notes.pdf                 # PDF version of the notes
 │
 ├── models/                   # Trained models
-│   └── glaucoma_cnn.pt
+│   └── full_model.keras
 │
 ├── agent/                    # Agent logic and environment
 │   ├── agent_loop.py         # Main agent loop
