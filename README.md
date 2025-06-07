@@ -22,41 +22,6 @@ To build a decision-making AI agent that:
 - Simulates basic environment responses (reward, penalty, feedback)
 - Evolves from a rule-based agent to more goal- or utility-based designs
 
----
-
-## Learning Milestones
-| Phase | Topic | Status |
-|-------|-------|--------|
-| 1 | Understand AI agents from AIMA Ch. 2, 3, 4, 18 | ✅ In Progress |
-| 2 | Build initial agent loop with CNN as sensor | ⏳ |
-| 3 | Add decision logic + simple environment | ⏳ |
-| 4 | Evaluate agent behavior vs. raw model | ⏳ |
-| 5 | Extend agent intelligence (rewards, rules, memory) | ⏳ |
-
----
-
-## Repository Structure
-```
-learning-ai-agents/
-│
-├── README.md                 # Project overview
-├── requirements.txt          # Dependencies
-├── notes.docx                # AI Agent theory notes (editable)
-├── notes.pdf                 # PDF version of the notes
-│
-├── models/                   # Trained models
-│   └── full_model.keras
-│
-├── agent/                    # Agent logic and environment
-│   ├── agent_loop.py         # Main agent loop
-│   ├── environment.py        # Simulated environment logic
-│   └── utils.py              # Helper functions
-│
-├── notebooks/                # Jupyter notebooks for testing
-│   └── agent_demo.ipynb
-│
-└── data/                     # Sample images for agent testing
-    └── demo_images/
 
 ```
 
@@ -87,7 +52,7 @@ pip install -r requirements.txt
 ## References
 - Russell & Norvig, "Artificial Intelligence: A Modern Approach"
 - AIMA Python Code: [https://github.com/aimacode/aima-python](https://github.com/aimacode/aima-python)
-- Retinal Fundus Data: Kaggle datasets
+- Retinal Fundus Data: Kaggle datasets:[ https://www.kaggle.com/datasets/drskprabhakar/cataract-dr-normal-glaucoma-fundus-images-dataset ]
 
 ---
 
